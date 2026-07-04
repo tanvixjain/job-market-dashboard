@@ -44,4 +44,5 @@ job-market-dashboard/
 ├── dashboard/       # Streamlit app + CSS
 └── requirements.txt
 
-Built by Tanvi 
+Built by Tanvi Jain
+
