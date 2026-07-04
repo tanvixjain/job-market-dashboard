@@ -37,4 +37,11 @@ streamlit run dashboard/app.py
 ```
 
 ## 📁 Project Structure
+job-market-dashboard/
+├── scraper/         # Job scraping from RemoteOK API
+├── nlp/             # Skill extraction using spaCy + regex
+├── data/            # Processed job data (CSV)
+├── dashboard/       # Streamlit app + CSS
+└── requirements.txt
+
 Built by Tanvi 
