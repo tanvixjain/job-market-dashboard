@@ -1,0 +1,73 @@
+/* Main background */
+.stApp {
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    color: #ffffff;
+}
+
+/* Cards / metrics */
+[data-testid="stMetric"] {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 1rem;
+    backdrop-filter: blur(10px);
+}
+
+/* Metric value */
+[data-testid="stMetricValue"] {
+    font-size: 2rem !important;
+    font-weight: 700 !important;
+    color: #00d4ff !important;
+}
+
+/* Tabs */
+.stTabs [data-baseweb="tab-list"] {
+    background: rgba(255,255,255,0.05);
+    border-radius: 12px;
+    padding: 4px;
+    gap: 4px;
+}
+
+.stTabs [data-baseweb="tab"] {
+    border-radius: 8px;
+    color: rgba(255,255,255,0.6);
+    font-weight: 500;
+}
+
+.stTabs [aria-selected="true"] {
+    background: rgba(0, 212, 255, 0.15) !important;
+    color: #00d4ff !important;
+}
+
+/* Sidebar */
+[data-testid="stSidebar"] {
+    background: rgba(15, 12, 41, 0.9) !important;
+    border-right: 1px solid rgba(255,255,255,0.1);
+}
+
+/* Buttons */
+.stButton > button {
+    background: linear-gradient(90deg, #00d4ff, #0099cc);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    padding: 0.5rem 2rem;
+    transition: transform 0.2s;
+}
+
+.stButton > button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 212, 255, 0.3);
+}
+
+/* Divider */
+hr {
+    border-color: rgba(255,255,255,0.1) !important;
+}
+
+/* Dataframe */
+[data-testid="stDataFrame"] {
+    border-radius: 10px;
+    overflow: hidden;
+}
