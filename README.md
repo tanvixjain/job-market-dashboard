@@ -19,22 +19,6 @@ extracts in-demand skills using NLP, and visualises trends by role and location.
 - Role Comparison — compare skill overlap between two roles
 - Skill Gap Analyser — paste your skills, see what you're missing
 
-## ⚙️ Run Locally
-
-```bash
-# Install dependencies
-pip install -r requirements.txt
-python -m spacy download en_core_web_sm
-
-# Scrape fresh data
-python scraper/scrape_jobs.py
-
-# Extract skills
-python nlp/extract_skills.py
-
-# Launch dashboard
-streamlit run dashboard/app.py
-```
 
 ## 📁 Project Structure
 job-market-dashboard/
