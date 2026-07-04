@@ -22,10 +22,10 @@ extracts in-demand skills using NLP, and visualises trends by role and location.
 
 ## 📁 Project Structure
 job-market-dashboard/
-├── scraper/         # Job scraping from RemoteOK API
-├── nlp/             # Skill extraction using spaCy + regex
-├── data/            # Processed job data (CSV)
-├── dashboard/       # Streamlit app + CSS
+├── scraper/         
+├── nlp/             
+├── data/            
+├── dashboard/      
 └── requirements.txt
 
 Built by Tanvi Jain
